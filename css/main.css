@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.clearfix:after {
+    content: '';
+    display: block;
+    width: 100%;
+    clear: both;
+}
+.container {
+    margin: 0 auto;
+    width: 900px;
+}
+/*Section Header*/
+header {
+    background: darkslategrey;
+    padding-bottom: 50px;
+}
+.logo {
+    float: left;
+    margin-top: 50px;
+}
+nav {
+    float: right;
+    margin-top: 35px;
+}
+.menu {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    float: left;
+    display: block;
+    margin-right: 40px;
+}
+.menu a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/*Section Welcome*/
+.welcome {
+    background: orange;
+    height: 800px;
+}
+.form {
+    background: deepskyblue;
+    float: left;
+    height: 100px;
+    width: 200px;
+}
+.slider {
+    background: limegreen;
+    float: right;
+    height: 700px;
+    width: 500px;
+}
+.slaider-menu li {
+    float: left;
+    display: block;
+    margin-right: 50px;
+    padding-top: 60px;
+}
