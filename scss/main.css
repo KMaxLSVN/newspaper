@@ -1,0 +1,138 @@
+/*-----WITHOUT SASS-----*/
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    margin: 0 auto;
+    width: 900px;
+}
+/*Section Header*/
+header {
+    background: darkslategrey;
+}
+header .container .heading{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.heading .left-column {
+    width: 30%;
+}
+.heading .right-column {
+    width: 70%;
+}
+.logo {
+    display: block;
+}
+/*Section Header - MENU*/
+/*base style*/
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.list-menu a {
+    color: #fff;
+    display: block;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px;
+}
+.list-menu a:hover {
+    background-color: #555;
+}
+/*flex style*/
+.menu {
+    display: flex;
+}
+.menu .list-menu {
+    flex: 1 1 0;
+}
+/*Section Welcome*/
+.welcome {
+    background: orange;
+}
+.welcome .container{
+    display: flex;
+}
+.welcome .left-column {
+    width: 30%;
+}
+.welcome .right-column {
+    width: 70%;
+}
+.form {
+    background: deepskyblue;
+}
+.slider-wrapper {
+    min-width: 630px;
+}
+.slider {
+    background: limegreen;
+    margin: 0 auto;
+    max-width: 630px;
+}
+.imgW {
+    align-self: flex-start;
+    height:600px;
+    max-width: 500px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.slider-body {
+    align-items: center;
+    display: flex;
+}
+.slider-content {
+    display: none;
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.slider-content.active {
+    display: block;
+}
+.slider-body [class$=-button] {
+    width: 65px;
+    height: 65px;
+    cursor: pointer;
+}
+.slider-body [class$=-button]:hover {
+    opacity: .7;
+}
+.slider-body .left-button {
+    background: url("../img/prev.png") no-repeat 50% 50% / 100%;
+}
+.slider-body .right-button {
+    background: url("../img/next.png") no-repeat 50% 50% / 100%;
+}
+.slider-menu {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    margin:0;
+}
+.slider-menu li {
+    display: inline-block;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    cursor: pointer;
+    background: yellowgreen;
+    margin: 0 2px;
+}
+.slider-menu li.active {
+    background: deepskyblue;
+}

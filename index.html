@@ -3,56 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <title>News Portal</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="scss/normalized.css">
+    <link rel="stylesheet" href="scss/style.css">
     <script src="js/main.js"></script>
     <script src="js/slider.js"></script>
 </head>
 <body>
-    <header>
+    <header id="header">
         <div class="container">
-            <div class="heading clearfix">
-                <img src="img/logo.png" alt="UIT" class="logo">
-                <nav>
-                    <ul class="menu">
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li>
-                            <a href="#">Sport</a>
-                        </li>
-                        <li>
-                            <a href="#">Game</a>
-                        </li>
-                        <li>
-                            <a href="#">About</a>
-                        </li>
-                        <li>
-                            <a href="#">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
+            <div class="heading">
+                <div class="left-column">
+                    <img src="img/logo.png" alt="UIT" class="logo">
+                </div>
+                <div class="right-column">
+                    <nav>
+                        <ul class="menu">
+                            <li class="list-menu">
+                                <a href="#">Home</a>
+                            </li>
+                            <li class="list-menu">
+                                <a href="#">Sport</a>
+                            </li>
+                            <li class="list-menu">
+                                <a href="#">Game</a>
+                            </li>
+                            <li class="list-menu">
+                                <a href="#">About</a>
+                            </li>
+                            <li class="list-menu">
+                                <a href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </div>
     </header>
     <section class="welcome">
         <div class="container">
-            <div class="clearfix">
+            <div class="left-column">
                 <div class="form">Here is the login form</div>
+            </div>
+            <div class="right-column">
                 <div class="slider">
                     <div class="slider-wrapper">
                         <div class="slider-body">
-                            <div class="left-button">Left</div>
+                            <div class="left-button"></div>
                             <div class="imgW">
-                                <img src="img/1.jpg" alt="numbers" class="slaider-content">
+                                <img src="img/1.jpg" alt="numbers" class="slider-content active">
+                                <img src="img/2.jpg" alt="numbers" class="slider-content">
+                                <img src="img/3.jpg" alt="numbers" class="slider-content">
+                                <img src="img/4.jpg" alt="numbers" class="slider-content">
+                                <img src="img/5.jpg" alt="numbers" class="slider-content">
+                                <img src="img/6.jpg" alt="numbers" class="slider-content">
+                                <img src="img/7.jpg" alt="numbers" class="slider-content">
+                                <img src="img/8.jpg" alt="numbers" class="slider-content">
+                                <img src="img/9.jpg" alt="numbers" class="slider-content">
+                                <img src="img/10.jpg" alt="numbers" class="slider-content">
                             </div>
-                            <div class="right-button">Right</div>
+                            <div class="right-button"></div>
                         </div>
                         <div class="slider-bottom">
-                            <ul class="slaider-menu">
-                                <li><a href="#">1</a></li>
-                                <li><a href="#">2</a></li>
-                                <li><a href="#">3</a></li>
-                            </ul>
+                            <ul class="slider-menu"></ul>
                         </div>
                     </div>
                 </div>
