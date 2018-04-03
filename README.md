@@ -4,4 +4,4 @@ Theme of task is **portal of news**
 - [x] Creating a repository and branching to branches
 - [x] Correct understanding of those tasks
 > Author *Kim Maxim*
-> E-mail: ***maxim250291@gmail.com***
+E-mail: ***maxim250291@gmail.com***
