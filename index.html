@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>News Portal</title>
-    <link rel="stylesheet" href="scss/normalized.css">
     <link rel="stylesheet" href="scss/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/slider.js"></script>
+    <script src="js/banner.js"></script>
 </head>
 <body>
     <header id="header">
@@ -16,13 +17,33 @@
                     <img src="img/logo.png" alt="UIT" class="logo">
                 </div>
                 <div class="right-column">
-                    <nav>
-                        <ul class="menu">
+                    <div class="form-wrapper">
+                        <input type="text" placeholder="Enter search query" required>
+                        <button type="submit">Search</button>
+                    </div>
+                    <nav class="dws-menu">
+                        <ul>
                             <li class="list-menu">
                                 <a href="#">Home</a>
+                                <ul class="submenu">
+                                    <li><a href="#">submenu1-1</a></li>
+                                    <li><a href="#">submenu1-2</a>
+                                        <ul>
+                                            <li><a href="#">sub-sub</a></li>
+                                            <li><a href="#">sub-sub</a></li>
+                                            <li><a href="#">sub-sub</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">submenu1-3</a></li>
+                                </ul>
                             </li>
                             <li class="list-menu">
                                 <a href="#">Sport</a>
+                                <!--<ul>-->
+                                    <!--<li><a href="#">submenu2-1</a></li>-->
+                                    <!--<li><a href="#">submenu2-2</a></li>-->
+                                    <!--<li><a href="#">submenu2-3</a></li>-->
+                                <!--</ul>-->
                             </li>
                             <li class="list-menu">
                                 <a href="#">Game</a>
@@ -35,6 +56,14 @@
                             </li>
                         </ul>
                     </nav>
+                </div>
+                <div class="titles">
+                    <div class="titles-first">
+                        Welcome To Instructional News Portal!
+                    </div>
+                    <h1 class="titles-second">
+                        The following web elements will be presented here:
+                    </h1>
                 </div>
             </div>
         </div>
@@ -80,5 +109,6 @@
     <footer>
         <div class="container"></div>
     </footer>
+    <div id="banner"></div>
 </body>
 </html>
