@@ -8,4 +8,5 @@
 - [ ] Sandwich button bar
 - [ ] Organization of search
 - [ ] Loading news
+- [ ] Cart
 >E-mail: ***maxim250291@gmail.com***
